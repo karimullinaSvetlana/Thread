@@ -27,7 +27,7 @@ public class Speed extends Thread{
                     if (z % 2 == 0) v -= r;
                     else v += r;
                 }
-                t= v*0.0003;
+                t = 0.003;
                 System.out.println("Скорость: " + v + " км/ч");
             }
             else check = false;

@@ -28,7 +28,7 @@ public class Navigator extends Thread{
             rS = Main.S - aS;
             if (rS > 0){
                 System.out.println("Остаток пути: " + rS + " км");
-                System.out.println("Осталось времени: " + (rS/averageSpeed)+ " км/ч");
+                System.out.println("Осталось времени: " + (rS/averageSpeed)+ " ч");
             }
             else{
                 Speed.check = false;
